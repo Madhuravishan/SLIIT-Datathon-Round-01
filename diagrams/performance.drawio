@@ -1,0 +1,79 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="Ok0igjcf863d-mwLIKSl">
+    <mxGraphModel dx="1414" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" background="#050a18" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#0b132b;strokeColor=#1e3a8a;strokeWidth=2;shadow=1;" value="" vertex="1">
+          <mxGeometry height="510" width="980" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#111c38;strokeColor=#2563eb;strokeWidth=1.5;align=center;verticalAlign=middle;" value="&lt;b style=&quot;font-size: 15px; letter-spacing: 1.5px; color: #38bdf8;&quot;&gt;DATAMINDS PERFORMANCE AT A GLANCE&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size: 11px; color: #94a3b8;&quot;&gt;SLIIT Codefest Datathon 2026 • NYC Urban Flow Analytics • 48.6M Records&lt;/font&gt;" vertex="1">
+          <mxGeometry height="56" width="940" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f172a;strokeColor=#334155;strokeWidth=1;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b style=&quot;font-size: 11px; color: #64748b;&quot;&gt;TRACK &amp; MODULE IDENTIFIER&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="60" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f172a;strokeColor=#334155;strokeWidth=1;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b style=&quot;font-size: 11px; color: #64748b;&quot;&gt;ALGORITHM / METHODOLOGY&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="310" x="400" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f172a;strokeColor=#334155;strokeWidth=1;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b style=&quot;font-size: 11px; color: #64748b;&quot;&gt;VALIDATED PERFORMANCE &amp; IMPACT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="720" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 2.1: Upfront Base Fare Engine&lt;/b&gt;" vertex="1">
+          <mxGeometry height="58" width="330" x="60" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#38bdf8&#39;&gt;&lt;b&gt;LightGBM Regressor&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#94a3b8&#39; size=&#39;2&#39;&gt;Holdout RMSE = $3.25&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="310" x="400" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#10b981&#39;&gt;&lt;b&gt;Holdout R² = 0.9657&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#6ee7b7&#39; size=&#39;2&#39;&gt;Holdout MAE = $1.76&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="280" x="720" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 2.2: On-Time Arrival Model&lt;/b&gt;" vertex="1">
+          <mxGeometry height="58" width="330" x="60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#38bdf8&#39;&gt;&lt;b&gt;XGBoost Regressor&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#94a3b8&#39; size=&#39;2&#39;&gt;Holdout RMSE = 6.39 min&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="310" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#10b981&#39;&gt;&lt;b&gt;Holdout R² = 0.8268&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#6ee7b7&#39; size=&#39;2&#39;&gt;Holdout MAE = 3.57 min&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="280" x="720" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 3.1: Fleet Dispatcher&lt;/b&gt;" vertex="1">
+          <mxGeometry height="58" width="330" x="60" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#38bdf8&#39;&gt;&lt;b&gt;Lagged Autoregressive LightGBM&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#94a3b8&#39; size=&#39;2&#39;&gt;Multistep 24h/48h/72h Forecaster&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="310" x="400" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#f59e0b&#39;&gt;&lt;b&gt;24h RMSE = 1.22 trips/hr&lt;/b&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#fcd34d&#39; size=&#39;2&#39;&gt;72h RMSE = 1.00 trips/hr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="58" width="280" x="720" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 3.2: Hotspot OD Clustering&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="330" x="60" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#e2e8f0&#39;&gt;K-Means Spatial Flow Corridors&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="310" x="400" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#c084fc&#39;&gt;&lt;b&gt;4 Daily Operational Slices&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="280" x="720" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 5 (Bonus): AI Mobility Agent&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="330" x="60" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#e2e8f0&#39;&gt;Safe Intent Router &amp;amp; SQL/Pandas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="310" x="400" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#38bdf8&#39;&gt;&lt;b&gt;Active Ambiguity Safeguard&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="280" x="720" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontColor=#f1f5f9;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;b&gt;Track 6 (Bonus): Executive Story&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="330" x="60" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#131f3d;strokeColor=#1e293b;strokeWidth=1;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#e2e8f0&#39;&gt;4-Stage Problem-to-ROI Engine&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="310" x="400" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#0f233a;strokeColor=#0284c7;strokeWidth=1.5;fontSize=12;align=left;spacingLeft=12;verticalAlign=middle;" value="&lt;font color=&#39;#34d399&#39;&gt;&lt;b&gt;Projected Uplift: +$51.8M&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="280" x="720" y="466" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

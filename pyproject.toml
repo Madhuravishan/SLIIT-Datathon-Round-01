@@ -1,0 +1,10 @@
+[project]
+name = "datathon-2026-urban-flow"
+version = "1.0.0"
+description = "SLIIT Codefest Datathon 2026 - Urban Flow Analytics"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pyrefly]
+python-interpreter-path = ".venv/Scripts/python.exe"
+search-paths = [".", "src", ".venv/Lib/site-packages"]

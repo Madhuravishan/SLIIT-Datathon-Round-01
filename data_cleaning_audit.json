@@ -1,0 +1,72 @@
+{
+  "total_records": 48601782,
+  "elapsed_seconds": 163.86,
+  "anomalies": {
+    "negative_base_fare": {
+      "count": 2400031,
+      "percentage": 4.9382,
+      "policy": "Filter / Drop",
+      "justification": "Disputed, voided, or refunded transactions; cannot represent valid ride fare."
+    },
+    "negative_charge_total": {
+      "count": 875399,
+      "percentage": 1.8012,
+      "policy": "Filter / Drop",
+      "justification": "Total charge negative due to reversals/chargebacks."
+    },
+    "zero_distance_positive_fare": {
+      "count": 1267110,
+      "percentage": 2.6071,
+      "policy": "Filter / Segment",
+      "justification": "Trips where vehicle did not move (cancellation/waiting fees, GPS initialization failure). Not representative of point-to-point transit pricing."
+    },
+    "zero_or_null_rider_count": {
+      "count": 12636846,
+      "percentage": 26.0008,
+      "policy": "Impute (Mode = 1)",
+      "justification": "Unmetered passenger entries, courier delivery, or driver input oversight. Valid trips with realistic distance and fare should be retained with imputed passenger count."
+    },
+    "dropoff_before_pickup": {
+      "count": 651610,
+      "percentage": 1.3407,
+      "policy": "Filter / Drop",
+      "justification": "Clock synchronization error or instant trip cancellation resulting in negative or zero duration."
+    },
+    "unrealistic_speed_over_80mph": {
+      "count": 13589,
+      "percentage": 0.028,
+      "policy": "Filter / Drop",
+      "justification": "GPS teleportation or inaccurate timestamp entry violating physical urban driving limits."
+    },
+    "unknown_or_outside_origin_zone": {
+      "count": 92853,
+      "percentage": 0.191,
+      "policy": "Segment / Keep separate",
+      "justification": "Trips originating outside NYC jurisdiction or with unmapped zone IDs; exclude from intra-city spatial flow models."
+    },
+    "unknown_or_outside_dest_zone": {
+      "count": 317258,
+      "percentage": 0.6528,
+      "policy": "Segment / Keep separate",
+      "justification": "Trips ending outside NYC jurisdiction or unmapped zone IDs."
+    },
+    "extreme_fare_over_500": {
+      "count": 860,
+      "percentage": 0.0018,
+      "policy": "Filter / Drop",
+      "justification": "Outlier fares exceeding standard maximum thresholds; severe skewness risk for regression."
+    },
+    "extreme_distance_over_100mi": {
+      "count": 2817,
+      "percentage": 0.0058,
+      "policy": "Filter / Drop",
+      "justification": "Long-distance inter-city trips outside standard metropolitan fleet operational envelope."
+    },
+    "extreme_duration_over_24h": {
+      "count": 405,
+      "percentage": 0.0008,
+      "policy": "Filter / Drop",
+      "justification": "Meter left running overnight or multi-day logging error."
+    }
+  }
+}
